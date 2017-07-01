@@ -1,0 +1,33 @@
+{
+  "name": "n3d-particleflow",
+  "version": "1.0.0",
+  "description": "particle, threejs, motion, shadow",
+  "main": "app.js",
+  "scripts": {
+    "build": "start webpack --watch ./src/index.js ./build/index.bundle.js",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dhygns/n3d-particleflow.git"
+  },
+  "keywords": [
+    "particle",
+    "threejs",
+    "motion",
+    "shadow"
+  ],
+  "author": "donghyoen kim,",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dhygns/n3d-particleflow/issues"
+  },
+  "homepage": "https://github.com/dhygns/n3d-particleflow#readme",
+  "devDependencies": {
+    "n3d-threejs": "^76.0.0",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
